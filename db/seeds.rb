@@ -50,18 +50,18 @@ boulagy_ux = {
   puts "Created #{mesuxapp.name}"
 end
 
-puts "Creating about..."
+# puts "Creating about..."
 
-front = { name: "Front end", content: "HTML, CSS" }
-javascript = { name: "Javascript", content: "Javascript et ses frameworks Angular, React, Stimulus, Vue" }
-back = { name: "Back end", content: "Ruby on rails, Java et Python" }
-collab = { name: "Collaboration", content: "Git, Github et Notion" }
-methode = { name: "Méthodes", content: "Methode AGILE et SCRUM" }
-database = { name: "Database", content: "SQL, Postgre, SQLite" }
-design = { name: "UX Design", content: "Figma et design responsive" }
+# front = { name: "Front end", content: "HTML, CSS" }
+# javascript = { name: "Javascript", content: "Javascript et ses frameworks Angular, React, Stimulus, Vue" }
+# back = { name: "Back end", content: "Ruby on rails, Java et Python" }
+# collab = { name: "Collaboration", content: "Git, Github et Notion" }
+# methode = { name: "Méthodes", content: "Methode AGILE et SCRUM" }
+# database = { name: "Database", content: "SQL, Postgre, SQLite" }
+# design = { name: "UX Design", content: "Figma et design responsive" }
 
-[front, javascript, back, collab, methode, database, design].each do |attributes|
-  about = About.create!(attributes)
-  puts "Created #{about.name}"
-end
+# [front, javascript, back, collab, methode, database, design].each do |attributes|
+#   about = About.create!(attributes)
+#   puts "Created #{about.name}"
+# end
 puts "Finished!"
