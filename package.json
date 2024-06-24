@@ -1,0 +1,12 @@
+{
+  "name": "myakeportfolio",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

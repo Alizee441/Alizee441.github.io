@@ -15,7 +15,7 @@
  */
  @import "components/_navbar.css";
  @import "bootstrap";
-
+ @import "node_modules/bootstrap/scss/bootstrap";
 
  html, body {
   text-decoration: none;
