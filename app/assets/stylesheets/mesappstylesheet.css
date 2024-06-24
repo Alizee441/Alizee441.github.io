@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+  margin: 1rem !important;
+}
+
+.top-section, .bottom-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.top-section {
+  justify-content: space-between;
+}
+
+.bottom-section {
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.top-text, .bottom-text {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.metrovert-image {
+  max-width: 50%;
+  height: 40rem;
+  margin-right: 13rem;
+  margin-left: 12rem;
+}
+
+.lo-image {
+  max-width: 50%;
+  width: auto;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.mesapp-card {
+  padding: 16px;
+  margin-right: 14rem;
+  border: none !important;
+}
+
+
+.mesapp-card2 {
+  padding: 16px;
+  margin-right: 5rem;
+  border: none !important;
+  margin-left: 10rem;
+  text-align: right;
+}
+
+.card-title h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card-content p {
+  margin: 8px 0 0;
+  font-size: 1em;
+  color: #666;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}

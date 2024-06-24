@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "components/_navbar.css";
+ @import "components/_glide_image.css";
+
+ html, body {
+  text-decoration : none;
+  font-family: comfortaa !important;
+ }

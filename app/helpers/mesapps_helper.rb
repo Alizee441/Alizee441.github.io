@@ -1,0 +1,2 @@
+module MesappsHelper
+end

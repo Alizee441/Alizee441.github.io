@@ -1,0 +1,34 @@
+<h1>Mes apps</h1>
+<div class="top-section">
+  <%= image_tag "https://res.cloudinary.com/dflvyzy0z/image/upload/v1718725083/Capture_d_%C3%A9cran_2024-06-17_163233_bti0o1.png", class: "metrovert-image" %>
+  <p class="top-text">
+    <% if @mesapps.any? %>
+      <div class="mesapp-card">
+        <div class="card-title">
+          <h2><%= @mesapps.first.name %></h2>
+        </div>
+        <div class="card-content">
+          <p><%= @mesapps.first.content %></p>
+        </div>
+      </div>
+    <% end %>
+  </p>
+</div>
+<hr>
+<div class="bottom-section">
+  <p class="bottom-text">
+    <% @mesapps.each_with_index do |mesapp, index| %>
+      <% if index.odd? %>
+        <div class="mesapp-card2">
+          <div class="card-title">
+            <h2><%= mesapp.name %></h2>
+          </div>
+          <div class="card-content">
+            <p><%= mesapp.content %></p>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </p>
+  <%= image_tag "https://res.cloudinary.com/dflvyzy0z/image/upload/v1718725079/Capture_d_%C3%A9cran_2024-06-07_151836_sokasl.png", class: "lo-image" %>
+</div>

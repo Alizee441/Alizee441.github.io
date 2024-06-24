@@ -1,0 +1,130 @@
+.image-container {
+  position: relative;
+  width: auto;
+  height: 310rem;
+  overflow: hidden; /* Cache les parties de l'image en dehors du conteneur */
+}
+
+.card1 {
+  position: absolute;
+  top: 37rem;
+  left: 37rem;
+  max-width: 23rem;
+}
+.photo1 {
+  position: absolute;
+  top: 1rem;
+  left: 6rem;
+  width: 50.5rem;
+  height: auto;
+}
+
+.photo2 {
+  position: absolute;
+  top: 1rem;
+  left: 63rem;
+  width: auto;
+  height: 51rem;
+}
+
+.photo3 {
+  position: absolute;
+  top: 30rem;
+  left: 6rem;
+  width: auto;
+  height: 50rem;
+}
+
+.photo4 {
+  position: absolute;
+  right: 7.5rem;
+  top: 57.5rem;
+  width: 50rem;
+  height: auto;
+}
+
+.photo5 {
+  position: absolute;
+  top: 85rem;
+  left: 6rem;
+  width: 50rem;
+  height: auto;
+}
+
+.photo6 {
+  position: absolute;
+  top: 84rem;
+  right: 7.5rem;
+  width: auto;
+  height: 51rem;
+}
+.photo7 {
+  position: absolute;
+  top: 112rem;
+  left: 6rem;
+  width: 50rem;
+  height: auto;
+}
+.photo8 {
+  position: absolute;
+  top: 140rem;
+  left: 6rem;
+  width: auto;
+  height: 51rem;
+}
+.photo9 {
+  position: absolute;
+  top: 140rem;
+  left: 36.5rem;
+  width: 50rem;
+  height: auto;
+}
+.photo10 {
+  position: absolute;
+  top: 168.5rem;
+  left: 36.5rem;
+  width: 50rem;
+  height: auto;
+}
+.photo11 {
+  position: absolute;
+  top: 196rem;
+  left: 6rem;
+  width: 50rem;
+  height: auto;
+}
+.photo12 {
+  position: absolute;
+  top: 196rem;
+  left: 61rem;
+  height: 23rem;
+  width: auto;
+}
+.photo13 {
+  position: absolute;
+  top: 224rem;
+  left: 6rem;
+  width: auto;
+  height: 51rem;
+}
+.photo14 {
+  position: absolute;
+  top: 224rem;
+  left: 36rem;
+  height: auto;
+  width: 50rem;
+}
+.photo15 {
+  position: absolute;
+  top: 253rem;
+  left: 36rem;
+  width: auto;
+  height: 51rem;
+}
+.photo16 {
+  position: absolute;
+  top: 253rem;
+  left: 62.5rem;
+  width: auto;
+  height: 51rem;
+}

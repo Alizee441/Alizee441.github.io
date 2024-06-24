@@ -1,0 +1,54 @@
+<h1>Mes UX Design</h1>
+
+<div class="top-section">
+  <%= image_tag "https://res.cloudinary.com/dflvyzy0z/image/upload/v1718725084/Capture_d_%C3%A9cran_2024-06-17_224730_qubgqv.png", class: "metrovert-image" %>
+  <p class="top-text">
+    <% if @mesuxapps.any? %>
+      <div class="mesapp-card">
+        <div class="card-title">
+          <h2><%= @mesuxapps.first.name %></h2>
+        </div>
+        <div class="card-content">
+          <p><%= @mesuxapps.first.content %></p>
+        </div>
+      </div>
+    <% end %>
+  </p>
+</div>
+<hr>
+<div class="bottom-section">
+  <p class="bottom-text">
+    <% @mesuxapps.each_with_index do |mesuxapp, index| %>
+      <% if index.odd? %>
+        <div class="mesapp-card2">
+          <div class="card-title">
+            <h2><%= mesuxapp.name %></h2>
+          </div>
+          <div class="card-content">
+            <p><%= mesuxapp.content %></p>
+          </div>
+        </div>
+
+      <% end %>
+    <% end %>
+  </p>
+  <%= image_tag "https://res.cloudinary.com/dflvyzy0z/image/upload/v1719085719/Capture_d_%C3%A9cran_2024-03-07_215532_gdgmgs.png", class: "lo-image" %>
+</div>
+<hr>
+<div class="bottom-section">
+  <%= image_tag "https://res.cloudinary.com/dflvyzy0z/image/upload/v1718725079/Capture_d_%C3%A9cran_2024-03-03_215155_vwqpeq.png", class: "lo-image" %>
+  <p class="bottom-text">
+    <% @mesuxapps.each_with_index do |mesuxapp, index| %>
+      <% if index == 2 %>
+        <div class="mesapp-card">
+          <div class="card-title">
+            <h2><%= mesuxapp.name %></h2>
+          </div>
+          <div class="card-content">
+            <p><%= mesuxapp.content %></p>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </p>
+</div>

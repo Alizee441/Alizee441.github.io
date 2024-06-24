@@ -1,0 +1,44 @@
+/* app/assets/stylesheets/application.css */
+.image-container2 {
+  position: relative;
+  width: auto;
+  height: 49rem;
+  overflow: hidden; /* Cache les parties de l'image en dehors du conteneur */
+}
+
+.glide-image1 {
+  position: absolute;
+  top: 18REM;
+  left: 31rem;
+  width: 700px;
+  height: auto;
+}
+
+.glide-image2 {
+  position: absolute;
+  top: 3rem;
+  left: 18rem;
+  width: auto;
+  height: 39rem;
+}
+
+.title-glide {
+  position: absolute;
+  top: 9rem;
+  left: 50rem;
+  text-align: right;
+}
+
+.h3-glide {
+  position: absolute;
+  top: 13rem;
+  left: 60rem;
+  text-align: right;
+}
+
+.p-glide {
+  position: absolute;
+  top: 16rem;
+  left: 50rem;
+  text-align: right;
+}
