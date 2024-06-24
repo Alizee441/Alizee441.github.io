@@ -14,8 +14,7 @@
  *= require_self
  */
  @import "components/_navbar.css";
- @import "bootstrap";
- @import "node_modules/bootstrap/scss/bootstrap";
+ @import "vendor/javascript/bootstrap.js";
 
  html, body {
   text-decoration: none;
