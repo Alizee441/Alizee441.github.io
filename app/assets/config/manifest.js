@@ -5,4 +5,3 @@
 // app/assets/config/manifest.js
 //= link popper.js
 //= link bootstrap.min.js
-//= link bootstrap/dist/js/bootstrap.js
