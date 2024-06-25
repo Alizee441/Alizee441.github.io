@@ -16,11 +16,11 @@ About.destroy_all
 puts "Creating mesapp..."
 metrovert = {
   name: "MétroVert",
-  content: "Issue de mon projet de fin d’étude, l’application Métrovert à été entièrement designée par mes soins et a été présentée lors du Demoday du Wagon. J’ai également exercée en tant que développeur web au sein de mon groupe de travail."
+  content: "Issue de mon projet de fin d’études, l’application Métrovert a été entièrement designé par mes soins et a été présentée lors du Demoday du wagon. J’ai également exercé en tant que développeur web Full Stack au sein de mon groupe de travail."
 }
 legendaryobject = {
   name: "Legendary object",
-  content: "Application issue de la semaine Airbnb du Wagon, elle permet de louer des objets légendaires pour une durée déterminée. Elle part du principe de location de particulier à particulier et gère la partie mise en relation entre locataire et loueur."
+  content: "Application issue de la semaine Airbnb du Wagon, elle permet de louer des objets légendaires pour une durée déterminée. Elle part du principe de location de particulier à particulier et gère la mise en relation entre locataire et loueur."
 }
 
 [metrovert, legendaryobject].each do |attributes|
@@ -32,7 +32,7 @@ puts "Creating mesuxapp..."
 
 cashstream_ux = {
   name:"Cashstream",
-  content:"Application issue de ma formation d’UX Designer délivrée par Google. Elle permet à des professionnels de pouvoir gérer ses comptes bancaires pro et perso sans soucis et d’avoir un œil à plus long terme sur ses flux passés et à venir."
+  content:"Application issue de ma formation d’UX designer délivrée par Google. Elle permet à des professionnels de pouvoir gérer ses comptes bancaires professionnels et personnels sans soucis et d’avoir un œil sur les flux passés et à venir."
 }
 
 dura_ux = {
@@ -42,7 +42,7 @@ dura_ux = {
 
 boulagy_ux = {
   name:"Boulagy",
-  content:"Application de livraison de petit déjeuner, permet de trouver n’importe où dans le monde un petit déjeuner français parce que les croissants sont sacré. Mon premier design avec Google, pas mon design le plus beau mais tout le monde commence quelque part."
+  content:"Application de livraison de petit déjeuner, permet de trouver n’importe où dans le monde un petit déjeuner français parce que les croissants sont sacrés. Mon premier design avec Google, pas mon design le plus beau mais tout le monde commence quelque part."
 }
 
 [cashstream_ux, dura_ux, boulagy_ux].each do |attributes|
